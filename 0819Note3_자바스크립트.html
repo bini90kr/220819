@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+
+  </head>
+  <body>
+    <div id="a" style="background-color : yellow;"> 하이두두이두 </div>
+
+    <script>
+
+      $(document).ready(()=>{
+        $("#a").html("개발부트캠프");
+        $("#a").css("backgroundColor", "red");
+      });
+
+
+
+      document.getElementById('a').innerHTML = "개발부트캠프";
+      document.getElementById('a').style.backgroundColor="red";
+
+
+    </script>
+    <!-- 자바스크립트 : 동적으로 만들어주는 기능 -->
+    <!-- document ~~ innerHTML : 자바스크립트로 html바꿔줄 수 있으나 너무 길게 입력해야 함 -->
+    <!-- 대체 할 수 있는게 jquery제이쿼리 -->
+    <!-- 최신버젼 검색 : jquery cdn latest -->
+    <!-- "https://code.jquery.com/jquery-latest.min.js" -->
+    <!-- 1. head에 안넣고 body에 document ~~ innerHTML만 넣기 -->
+    <!-- 2. head에 jquery 주소 넣고 $ ~~ 넣기 -->
+
+
+  </body>
+
+
+</html>
